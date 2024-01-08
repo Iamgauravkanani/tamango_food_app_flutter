@@ -1,16 +1,7 @@
-# tamang_food_app
 
-A new Flutter project.
 
-## Getting Started
+<img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/a448e929-7c49-4e89-96af-587911869331" width=250px>
+<img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/a9dee3a2-c99f-44d9-a4a3-8f51ff479458" width=250px>
+<img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/e1484e88-6789-4092-83da-8afeddaf40fa" width=250px>
+<img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/1916cffb-0ae9-44a1-a3c8-8e1244b810f3" width=250px>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
