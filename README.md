@@ -58,7 +58,7 @@
 5. **Conclusion:**
    The Tamang Food Services Flutter App aims to revolutionize the food service experience by providing a seamless and user-friendly platform for customers to explore, order, and enjoy a wide range of culinary delights. Through its innovative features and robust technology stack, the app strives to make the entire food ordering and delivery process hassle-free and enjoyable for users.
 
-************************************************************ScreenShots*******************************************************************************
+
 
 <img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/a448e929-7c49-4e89-96af-587911869331" width=250px>
 <img src="https://github.com/Iamgauravkanani/tamango_food_app_flutter/assets/128220245/a9dee3a2-c99f-44d9-a4a3-8f51ff479458" width=250px>
