@@ -73,9 +73,12 @@ class _LoginState extends State<Login> {
                   mysizedbox(),
                   Column(
                     children: [
-                      Text(
-                        "Forget Password?",
-                        style: mytextstyle(),
+                      GestureDetector(
+                        onTap: forget,
+                        child: Text(
+                          "Forget Password?",
+                          style: mytextstyle(),
+                        ),
                       ),
                       mysizedbox(),
                       //todo:btn in compoennts
@@ -125,5 +128,7 @@ class _LoginState extends State<Login> {
     );
   }
 
-  //SizedBox myboxw() => const SizedBox(height: 20);
+  forget() {
+    Navigator.pushNamed(context, 'forget');
+  }
 }

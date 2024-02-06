@@ -2,6 +2,7 @@ class Asset {
   static String welcome_asset = "assets/welcome/";
   static String walkthrough_asset = "assets/walkthrough/";
   static String login = "assets/login/";
+  static String reset = "assets/reset/";
 
   //todo:welcome assets
   static String bg_image = welcome_asset + "circle_bg.png";
@@ -14,4 +15,5 @@ class Asset {
 
   static String facebook = login + "facebook.png";
   static String google = login + "google.png";
+  static String noodels = reset + "noodels.png";
 }
