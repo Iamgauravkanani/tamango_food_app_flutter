@@ -3,19 +3,13 @@ import '../../../../utils/assets/assets.dart';
 import '../../../../utils/colors.dart';
 import '../../../../utils/const.dart';
 
-//todo:border of textfield
-UnderlineInputBorder underlineborder() => const UnderlineInputBorder(
-      borderSide: BorderSide(
-        color: Colors.grey,
-      ),
-    );
 //todo:appbar
-AppBar appBar = AppBar(
+var appBar = AppBar(
   backgroundColor: AppColors.white,
   toolbarHeight: 40,
   title: Text(
     "Sign In",
-    style: welcome_style(color: Colors.black),
+    style: app_textstyle(color: Colors.black),
   ),
   leading: IconButton(onPressed: () {}, icon: const Icon(Icons.arrow_back_ios)),
   centerTitle: true,
@@ -38,7 +32,7 @@ var signin_btn = FilledButton(
     ),
   ),
   child: Text("Sign In",
-      style: welcome_style(
+      style: app_textstyle(
           fontWeight: FontWeight.w700, fontsize: 14, color: AppColors.white)),
 );
 
@@ -62,7 +56,7 @@ var fb_btn = Container(
       ),
       Text(
         "Connect with Facebook",
-        style: welcome_style(
+        style: app_textstyle(
             fontWeight: FontWeight.w600, color: AppColors.white, fontsize: 12),
       ),
     ],
@@ -89,7 +83,7 @@ var google_btn = Container(
       ),
       Text(
         "Connect with Google",
-        style: welcome_style(
+        style: app_textstyle(
             fontWeight: FontWeight.w600, color: AppColors.white, fontsize: 12),
       ),
     ],

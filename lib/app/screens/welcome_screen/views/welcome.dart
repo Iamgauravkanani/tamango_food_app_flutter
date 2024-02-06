@@ -75,7 +75,7 @@ class WelcomeScreen extends StatelessWidget {
                     ),
                   ),
                   child:
-                      Text("GET STARTED", style: welcome_style(fontsize: 14)),
+                      Text("GET STARTED", style: app_textstyle(fontsize: 14)),
                 ),
                 const SizedBox()
               ],

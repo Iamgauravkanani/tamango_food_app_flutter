@@ -143,7 +143,7 @@ class _OnboardingScreen extends State<OnboardingScreen> {
                     AppColors.app_color,
                   ),
                 ),
-                child: Text("GET STARTED", style: welcome_style(fontsize: 14)),
+                child: Text("GET STARTED", style: app_textstyle(fontsize: 14)),
               ),
               const SizedBox(
                 height: 45,

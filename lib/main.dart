@@ -11,6 +11,8 @@ void main() {
       routes: {
         '/': (ctx) => const ForgetScreen(),
         'w_through': (ctx) => const OnboardingScreen(),
+        'login': (ctx) => const Login(),
+        'forget': (ctx) => const ForgetScreen(),
       },
     ),
   );

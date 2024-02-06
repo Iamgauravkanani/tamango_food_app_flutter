@@ -26,21 +26,21 @@ class _LoginState extends State<Login> {
             children: [
               Text(
                 "Wecome to Tamang\nFood Services",
-                style: welcome_style(
+                style: app_textstyle(
                   fontWeight: FontWeight.w300,
                   fontsize: 33,
                 ),
               ),
-              mybox(),
+              mysizedbox(),
               Text(
                 "Enter your Phone number or Email\naddress for sign in. Enjoy your food :)",
-                style: welcome_style(
+                style: app_textstyle(
                   fontsize: 16,
                   fontWeight: FontWeight.w400,
                   color: const Color(0xff868686),
                 ),
               ),
-              mybox(),
+              mysizedbox(),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -57,7 +57,7 @@ class _LoginState extends State<Login> {
                         hintStyle: textStyle,
                         focusColor: Colors.grey),
                   ),
-                  mybox(),
+                  mysizedbox(),
                   Text(
                     "PASSWORD",
                     style: mytextstyle(),
@@ -70,17 +70,17 @@ class _LoginState extends State<Login> {
                       hintStyle: textStyle,
                     ),
                   ),
-                  mybox(),
+                  mysizedbox(),
                   Column(
                     children: [
                       Text(
                         "Forget Password?",
                         style: mytextstyle(),
                       ),
-                      mybox(),
+                      mysizedbox(),
                       //todo:btn in compoennts
                       signin_btn,
-                      mybox(),
+                      mysizedbox(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -93,7 +93,7 @@ class _LoginState extends State<Login> {
                           ),
                           Text(
                             "Create new account.",
-                            style: welcome_style(
+                            style: app_textstyle(
                               fontWeight: FontWeight.w300,
                               fontsize: 12,
                               color: AppColors.app_color,
@@ -101,17 +101,17 @@ class _LoginState extends State<Login> {
                           ),
                         ],
                       ),
-                      mybox(),
+                      mysizedbox(),
                       Text(
                         "Or",
-                        style: welcome_style(
+                        style: app_textstyle(
                           fontWeight: FontWeight.w400,
                         ),
                       ),
-                      mybox(),
+                      mysizedbox(),
                       //todo:btn in compoennts
                       fb_btn,
-                      mybox(),
+                      mysizedbox(),
                       //todo:btn in compoennts
                       google_btn,
                     ],
@@ -125,14 +125,5 @@ class _LoginState extends State<Login> {
     );
   }
 
-  SizedBox mybox() => const SizedBox(height: 20);
   //SizedBox myboxw() => const SizedBox(height: 20);
-  TextStyle mytextstyle() => welcome_style(
-        fontWeight: FontWeight.w300,
-        fontsize: 12,
-      );
-
-  TextStyle textStyle = const TextStyle(
-    color: Colors.grey,
-  );
 }
